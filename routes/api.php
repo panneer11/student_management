@@ -18,7 +18,7 @@ use App\Http\Controllers\Studentfamilycontroller;
 |
 */
 //........Staffcontroller....routes......//
-
+//manikandan code
 Route::group(['prefix' => 'auth','middleware' => ['assign.guard:staffs']],function (){
     Route::post('staff_register',[Staffcontroller::class,'staffregister']);
     Route::post('staff_login',[Staffcontroller::class,'stafflogin']);
