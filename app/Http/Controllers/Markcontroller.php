@@ -11,7 +11,7 @@ class Markcontroller extends Controller
 {
     public function mark_insert(Request $request)
   {
-  //hfhf
+  //panneer
     
         $studentId = $request->input('student_id');
         $validator = Validator::make($request->all(), [
